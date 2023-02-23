@@ -47,6 +47,7 @@ if nav == "Home":
            pred_Y = loaded_model.predict(txt)
            label=str(pred_Y)
            st.subheader(label)
+           <*font color=‘red’>label</*font>, unsafe_allow_html=True)
     st_lottie(animation, speed=1, height=300, key="initial")
 
 
