@@ -45,12 +45,14 @@ if nav == "Home":
 
     if st.button('Reveal!'):
            pred_Y = loaded_model.predict(txt)
-           label=str(pred_Y)
-           
-           label.replace('[', ' ')
-           label.replace(']', ' ')
+           label=str(pred_Y) 
+           if label=="['Fake']":
+                st.subheader("FAKE")
+                
+           #label.replace('[', ' ')
+           #label.replace(']', ' ')
            #label.translate({ord('b'): None})
-           st.subheader(label)
+           #st.subheader(label)
     st_lottie(animation, speed=1, height=300, key="initial")
 
 
