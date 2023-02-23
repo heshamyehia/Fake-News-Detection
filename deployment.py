@@ -49,7 +49,7 @@ if nav == "Home":
            
            label.replace('[', '')
            label.replace(']', '')
-           label.translate({ord('b'): None}))
+           label.translate({ord('b'): None})
            st.subheader(label)
     st_lottie(animation, speed=1, height=300, key="initial")
 
