@@ -47,7 +47,11 @@ if nav == "Home":
            pred_Y = loaded_model.predict(txt)
            label=str(pred_Y) 
            if label=="['Fake']":
-                st.subheader("FAKE")
+                st.subheader("FAKE NEWS")
+                
+           else:
+            st.subheader("REAL NEWS")
+                
                 
            #label.replace('[', ' ')
            #label.replace(']', ' ')
