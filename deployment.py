@@ -38,12 +38,12 @@ if nav == "Home":
 
     st.write('---')
 
-    st.subheader('Enter the news you want to check')
+    st.subheader('Your suspicious News goes here')
 
     txt = st.text_area('news')
     txt=[txt]
 
-    if st.button('Predict'):
+    if st.button('Reveal!'):
            pred_Y = loaded_model.predict(txt)
            label=str(pred_Y)
            st.write(label)
