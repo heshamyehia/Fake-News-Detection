@@ -47,9 +47,9 @@ if nav == "Home":
            pred_Y = loaded_model.predict(txt)
            label=str(pred_Y)
            
-           label.replace('[', '')
-           label.replace(']', '')
-           label.translate({ord('b'): None})
+           label.replace('[', ' ')
+           label.replace(']', ' ')
+           #label.translate({ord('b'): None})
            st.subheader(label)
     st_lottie(animation, speed=1, height=300, key="initial")
 
