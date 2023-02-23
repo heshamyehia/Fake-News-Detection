@@ -46,8 +46,11 @@ if nav == "Home":
     if st.button('Reveal!'):
            pred_Y = loaded_model.predict(txt)
            label=str(pred_Y)
+           
+           label.replace('[', '')
+           label.replace(']', '')
+           label.replace("'", '')
            st.subheader(label)
-           <*font color=‘red’>label</*font>, unsafe_allow_html=True)
     st_lottie(animation, speed=1, height=300, key="initial")
 
 
