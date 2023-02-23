@@ -81,9 +81,9 @@ if nav == "About":
         col1, col2 = st.columns(2)
         with col1:   
          st.header("Credits : ")
-         st.subheader("[Hesham Yehia](www.linkedin.com/in/Hesham-Yehia)")
+         st.subheader("[Hesham Yehia](https://www.linkedin.com/in/hesham-yehia/)")
          st.subheader("[Ammar Thabet](https://www.linkedin.com/in/ammar-thabett/)")
-         st.subheader("[Ahmed Sameh](www.linkedin.com/in/Hesham-Yehia)")
+         st.subheader("[Ahmed Sameh](https://www.linkedin.com/in/ahmedsamehahmed/)")
          with col2:
              st_lottie(animation4, speed=1.5, height=370) 
         #st.subheader("Hesham Yehia")
