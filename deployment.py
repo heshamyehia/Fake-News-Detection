@@ -5,7 +5,7 @@ import joblib
 import numpy as np
 from PIL import Image
 st.set_page_config(page_title='Fake News Detetector', page_icon='::star::')
-loaded_model = joblib.load(open("model_detection_H", 'rb'))
+loaded_model = joblib.load(open("model_detection_HHH", 'rb'))
 image = Image.open('logo.png')
 
 def load_lottie(url): # test url if you want to use your own lottie file 'valid url' or 'invalid url'
