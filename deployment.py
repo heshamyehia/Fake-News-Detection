@@ -40,7 +40,7 @@ if nav == "Home":
 
     st.subheader('Your suspicious News goes here')
 
-    txt = st.text_area('news')
+    txt = st.text_area('')
     txt=[txt]
 
     if st.button('Reveal!'):
@@ -70,10 +70,10 @@ if nav == "About":
         with col1:
            st.subheader("This Detector was made by machine learning concepts and Trained on large data set of news from various sources")
            st.subheader("techincal concepts :")
-           st.subheader("1 - Natural Language Processing (NLP")
-           st.subheader("2 - text vectorizer: TFIDF")
-           st.subheader("3 - classification models:")
-           st.subheader("Logistic regression , SVM ")
+           st.write("1 - Natural Language Processing (NLP")
+           st.write("2 - text vectorizer: TFIDF")
+           st.write("3 - classification models:")
+           st.write("Logistic regression , SVM ")
         with col2:
            st_lottie(animation3, speed=1.5, height=450) 
 
