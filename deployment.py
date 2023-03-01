@@ -70,11 +70,14 @@ if nav == "About":
         with col1:
            st.subheader("This Detector was made by machine learning concepts and Trained on large data set of news from various sources")
            st.subheader("techincal concepts :")
-           st.write("1 - Natural Language Processing (NLP")
-           st.write("2 - text vectorizer: TFIDF")
-           st.write("3 - classification models:")
-           st.write("Logistic regression , SVM ")
-           st.markdown("<font style='text-align: left; color: black;font-size:150%;'>Fake News Detetector</font>", unsafe_allow_html=True)
+        #   st.write("1 - Natural Language Processing (NLP)")
+         #  st.write("2 - text vectorizer: TFIDF")
+          # st.write("3 - classification models:")
+           #st.write("Logistic regression , SVM ")
+           st.markdown("<font style='text-align: left; color: black;font-size:150%;'>1 - Natural Language Processing (NLP)</font>", unsafe_allow_html=True)
+           st.markdown("<font style='text-align: left; color: black;font-size:150%;'>2 - text vectorizer: TFIDF</font>", unsafe_allow_html=True)
+           st.markdown("<font style='text-align: left; color: black;font-size:150%;'>3 - classification models : </font>", unsafe_allow_html=True)
+           st.markdown("<font style='text-align: left; color: black;font-size:150%;'>Logistic regression , SVM </font>", unsafe_allow_html=True)
         with col2:
            st_lottie(animation3, speed=1.5, height=450) 
 
