@@ -78,7 +78,7 @@ if nav == "About":
            st.markdown("<font style='text-align: left; color: black;font-size:130%;font-weight:Bold'>Techincal concepts :</font>", unsafe_allow_html=True)
            st.markdown("<font style='text-align: left; color: black;font-size:130%;font-weight:Semi Bold'>1- Natural Language Processing (NLP)</font>", unsafe_allow_html=True)
            st.markdown("<font style='text-align: left; color: black;font-size:130%;'>2- Text vectorizer: TFIDF</font>", unsafe_allow_html=True)
-           st.markdown("<font style='text-align: left; color: black;font-size:130%;'>3- Classification models : </font>", unsafe_allow_html=True)
+           st.markdown("<font style='text-align: left; color: black;font-size:130%;'>3- Classification models  </font>", unsafe_allow_html=True)
            st.markdown("<font style='text-align: left; color: black;font-size:130%;'>4- Logistic regression , SVM </font>", unsafe_allow_html=True)
         with col2:
            st_lottie(animation3, speed=1.5, height=450) 
