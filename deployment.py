@@ -74,10 +74,10 @@ if nav == "About":
          #  st.write("2 - text vectorizer: TFIDF")
           # st.write("3 - classification models:")
            #st.write("Logistic regression , SVM ")
-           st.markdown("<font style='text-align: left; color: black;font-size:150%;'>1 - Natural Language Processing (NLP)</font>", unsafe_allow_html=True)
-           st.markdown("<font style='text-align: left; color: black;font-size:150%;'>2 - text vectorizer: TFIDF</font>", unsafe_allow_html=True)
-           st.markdown("<font style='text-align: left; color: black;font-size:150%;'>3 - classification models : </font>", unsafe_allow_html=True)
-           st.markdown("<font style='text-align: left; color: black;font-size:150%;'>Logistic regression , SVM </font>", unsafe_allow_html=True)
+           st.markdown("<font style='text-align: left; color: black;font-size:130%;'>1 - Natural Language Processing (NLP)</font>", unsafe_allow_html=True)
+           st.markdown("<font style='text-align: left; color: black;font-size:130%;'>2 - text vectorizer: TFIDF</font>", unsafe_allow_html=True)
+           st.markdown("<font style='text-align: left; color: black;font-size:130%;'>3 - classification models : </font>", unsafe_allow_html=True)
+           st.markdown("<font style='text-align: left; color: black;font-size:130%;'>Logistic regression , SVM </font>", unsafe_allow_html=True)
         with col2:
            st_lottie(animation3, speed=1.5, height=450) 
 
