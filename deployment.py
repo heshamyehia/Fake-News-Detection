@@ -87,7 +87,8 @@ if nav == "About":
         col1, col2 = st.columns(2)
         with col1:   
          st.header("Credits : ")
-         st.subheader("[Hesham Yehia](https://www.linkedin.com/in/hesham-yehia/)")
+         st.markdown("<font style='text-align: left; color: black;font-size:90%;'>[Hesham Yehia](https://www.linkedin.com/in/hesham-yehia/)</font>", unsafe_allow_html=True)
+        # st.subheader("[Hesham Yehia](https://www.linkedin.com/in/hesham-yehia/)")
          st.subheader("[Ammar Thabet](https://www.linkedin.com/in/ammar-thabett/)")
          st.subheader("[Ahmed Sameh](https://www.linkedin.com/in/ahmedsamehahmed/)")
          with col2:
