@@ -86,7 +86,8 @@ if nav == "About":
          st.subheader("[Ammar Thabet](https://www.linkedin.com/in/ammar-thabett/)")
          st.subheader("[Ahmed Sameh](https://www.linkedin.com/in/ahmedsamehahmed/)")
          with col2:
-             st_lottie(animation4, speed=1.5, height=370) 
+             #st_lottie(animation4, speed=1.5, height=370)
+              st.image(image, caption='Powered by')
         #st.subheader("Hesham Yehia")
         #st.subheader("Ammar Thabet")
         #st.subheader("Ahmed Sameh")
