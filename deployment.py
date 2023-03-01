@@ -74,7 +74,7 @@ if nav == "About":
            st.write("2 - text vectorizer: TFIDF")
            st.write("3 - classification models:")
            st.write("Logistic regression , SVM ")
-           st.markdown("<font size="+2">blaalabs.</font>")
+           st.markdown("<font size="+2">blaalabs.</font>", unsafe_allow_html=True)
         with col2:
            st_lottie(animation3, speed=1.5, height=450) 
 
