@@ -74,7 +74,7 @@ if nav == "About":
          #  st.write("2 - text vectorizer: TFIDF")
           # st.write("3 - classification models:")
            #st.write("Logistic regression , SVM ")
-           st.markdown("<font style='text-align: left; color: black;font-size:130%;font-weight:Semi Bold'>1 - Natural Language Processing (NLP)</font>", unsafe_allow_html=True)
+           st.markdown("<font style='text-align: left; color: black;font-size:130%;font-weight:Bold'>1 - Natural Language Processing (NLP)</font>", unsafe_allow_html=True)
            st.markdown("<font style='text-align: left; color: black;font-size:130%;'>2 - text vectorizer: TFIDF</font>", unsafe_allow_html=True)
            st.markdown("<font style='text-align: left; color: black;font-size:130%;'>3 - classification models : </font>", unsafe_allow_html=True)
            st.markdown("<font style='text-align: left; color: black;font-size:130%;'>Logistic regression , SVM </font>", unsafe_allow_html=True)
