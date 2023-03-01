@@ -21,7 +21,7 @@ def load_lottie(url): # test url if you want to use your own lottie file 'valid 
 nav=st.sidebar.radio('', ["Home","About"])
 if nav == "Home":
 
-   
+    st.markdown("<style body { background-image: url('C:\Users\hmyeh\Downloads\background.jpg');}</style>", unsafe_allow_html=True)
     lottie_link = "https://assets4.lottiefiles.com/packages/lf20_yb7fmrm7.json"
     animation = load_lottie(lottie_link)
     lottie_link2 = "https://assets6.lottiefiles.com/packages/lf20_aXM2jEiatF.json"
