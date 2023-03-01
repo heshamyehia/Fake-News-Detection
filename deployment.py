@@ -87,10 +87,10 @@ if nav == "About":
         col1, col2 = st.columns(2)
         with col1:   
          #st.header("Credits : ")
-        st.markdown("<font style='text-align: left; color: black;font-size:130%;'>Credits</font>", unsafe_allow_html=True)
-        st.markdown("<font style='text-align: left; color: black;font-size:120%;'>[Hesham Yehia](https://www.linkedin.com/in/hesham-yehia/)</font>", unsafe_allow_html=True)
-        st.markdown("<font style='text-align: left; color: black;font-size:120%;'>[Ammar Thabet](https://www.linkedin.com/in/ammar-thabett/)</font>", unsafe_allow_html=True)
-        st.markdown("<font style='text-align: left; color: black;font-size:120%;'>[Ahmed Sameh](https://www.linkedin.com/in/ahmedsamehahmed/)</font>", unsafe_allow_html=True)
+         st.markdown("<font style='text-align: left; color: black;font-size:130%;'>Credits</font>", unsafe_allow_html=True)
+         st.markdown("<font style='text-align: left; color: black;font-size:120%;'>[Hesham Yehia](https://www.linkedin.com/in/hesham-yehia/)</font>", unsafe_allow_html=True)
+         st.markdown("<font style='text-align: left; color: black;font-size:120%;'>[Ammar Thabet](https://www.linkedin.com/in/ammar-thabett/)</font>", unsafe_allow_html=True)
+         st.markdown("<font style='text-align: left; color: black;font-size:120%;'>[Ahmed Sameh](https://www.linkedin.com/in/ahmedsamehahmed/)</font>", unsafe_allow_html=True)
          
         # st.subheader("[Hesham Yehia](https://www.linkedin.com/in/hesham-yehia/)")
         #st.subheader("[Ammar Thabet](https://www.linkedin.com/in/ammar-thabett/)")
