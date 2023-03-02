@@ -21,4 +21,5 @@ Algorithms as (svm , logistic regression)were tried
 
 
 
-Project deployment link: Fake News Detetector · Streamlit
+Project deployment link: https://fake-news-detection.streamlit.app/
+
