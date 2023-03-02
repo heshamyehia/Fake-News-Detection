@@ -8,4 +8,4 @@ First, the data is collected from news websites or social media platforms, and t
 Next, a machine learning model is trained on the preprocessed data to classify news articles into fake or genuine categories. The model is evaluated on a test set 
 
 Algorithms as (svm , logistic regression)were tried
-Project deployment link: Fake News Detetector · Streamlit
+Project deployment link: https://fake-news-detection.streamlit.app/
